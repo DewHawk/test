@@ -3,7 +3,7 @@ module.exports = [
     {
         entry: ['./scripts/render-map.js'],
         output: {
-            filename:  'dist/bundle.js',
+            filename:  'scripts/bundle.js',
             path: __dirname
         }
     }
