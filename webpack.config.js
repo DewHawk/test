@@ -1,7 +1,7 @@
 const path = require('path');
 module.exports = [
     {
-        entry: ['./src/render-map.js'],
+        entry: ['./scripts/render-map.js'],
         output: {
             filename:  'dist/bundle.js',
             path: __dirname
